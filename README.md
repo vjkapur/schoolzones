@@ -32,4 +32,4 @@ Ideally, the two datasets above could be used to generate:
 - **remainder segments:** A set of polygons corresponding to the remainder of discretized roadway segments covered by a school zone
 
 ## Methodology
-Going to read these datasets into geopandas dataframes and see where it goes.
+Going to read these datasets into geopandas dataframes and see where it goes. Might render as a webpage using Leaflet if it gets anywhere.
