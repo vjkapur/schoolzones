@@ -1,0 +1,5 @@
+name: schoolzones
+
+dependencies:
+  - python
+  - geopandas

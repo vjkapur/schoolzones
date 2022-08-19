@@ -33,3 +33,31 @@ Ideally, the two datasets above could be used to generate:
 
 ## Methodology
 Going to read these datasets into geopandas dataframes and see where it goes. Might render as a webpage using Leaflet if it gets anywhere.
+
+## usage
+To run:
+1. download the `geojson`-formatted files for the two **OpenDataDC data sources** above, and place them in a `data` folder in the repo
+1. either use the included conda environment (requires Anaconda or [miniconda](https://docs.conda.io/en/latest/miniconda.html)) to pull package dependencies through an environment:
+
+   ```shell
+   conda env create
+   conda activate anc-redistricting
+   ```
+
+   or use `pip` (assumes python is already installed)
+
+   ```shell
+   pip install geopandas
+   ```
+
+1. run `compute-districts.py`
+
+   ```shell
+   python compute-zones.py
+   ```
+   
+   or, within a Python terminal:
+
+   ```python
+    exec(open('compute-zones.py').read())
+    ```
